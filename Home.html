@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examora</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="images/examora_icon-removebg-preview.png" alt="Logo">
+            <span>Examora</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#test">Test</a></li>
+            <li><a href="#registration">Registration</a></li>
+            <li><a href="#result">Result</a></li>
+        </ul>
+
+        <ul class="sign-in">
+            <li class="dropdown">
+                <a href="#" class="signin-btn">
+                    Sign In <span class="arrow">▲</span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="studentlogin.html">As Student</a></li>
+                    <li><a href="adminlogin.html">As Admin</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Empowering Students for Success</h1>
+            <p>Join Examora and prepare with confidence for your next big step in academics.</p>
+            <a href="#" class="cta-btn">Get Started</a>
+        </div>
+        <div class="hero-image">
+            <img src="images/ChatGPT Image Aug 10, 2025, 09_19_18 AM.png" alt="Students Learning">
+        </div>
+    </section>
+    <section id="about" class="about">
+  <div class="about-container">
+    <div class="about-image">
+    </div>
+    <div class="about-text">
+      <h2>About Us</h2>
+      <p>
+        We are dedicated to providing the best online testing and result services.  
+        Our platform is designed to make examinations simpler, faster, and more secure  
+        for students, institutions, and administrators.
+      </p>
+      <ul>
+        <li>✔ Secure and reliable platform</li>
+        <li>✔ Easy registration and test access</li>
+        <li>✔ Instant and accurate results</li>
+      </ul>
+      <a href="#register" class="about-btn">Learn More</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- Test Section -->
+ 
+<section id="test" class="test">
+  <div class="container">
+    <h2>Upcoming Tests</h2>
+    <div class="test-cards">
+
+      <div class="test-card">
+        <h3>Web Technologies</h3>
+        <p>Date: 25th August 2025</p>
+        <details>
+          <summary class="cta-btn">View Details</summary>
+          <ul class="test-info">
+            <li><strong>Topic:</strong> Overview of WT</li>
+            <li><strong>Time:</strong> 1 hr</li>
+            <li><strong>Exam Type:</strong> Objective</li>
+            <li><strong>Total Questions:</strong> 15</li>
+          </ul>
+           <a href="#" class="start-btn">Start Test</a>
+        </details>
+      </div>
+
+      <div class="test-card">
+        <h3>Statistics with R Programming</h3>
+        <p>Date: 1st September 2025</p>
+        <details>
+          <summary class="cta-btn">View Details</summary>
+          <ul class="test-info">
+            <li><strong>Topic:</strong> Overview of SR</li>
+            <li><strong>Time:</strong> 1 hr</li>
+            <li><strong>Exam Type:</strong> Objective</li>
+            <li><strong>Total Questions:</strong> 15</li>
+          </ul>
+           <a href="#" class="start-btn">Start Test</a>
+        </details>
+      </div>
+
+      <div class="test-card">
+        <h3>NOSQL</h3>
+        <p>Date: 5th September 2025</p>
+        <details>
+          <summary class="cta-btn">View Details</summary>
+          <ul class="test-info">
+            <li><strong>Topic:</strong> Overview of NOSQL</li>
+            <li><strong>Time:</strong> 1 hr</li>
+            <li><strong>Exam Type:</strong> Objective</li>
+            <li><strong>Total Questions:</strong> 15</li>
+          </ul>
+           <a href="#" class="start-btn">Start Test</a>
+        </details>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Registration Section -->
+<section id="registration"class="registration">
+  <div class="container">
+    <h2>Register for Exams</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="rollnumber" placeholder="Roll number" required>
+      <select required>
+        <option value="">Select Exam</option>
+        <option value="maths">Data Algorithms and Analytics</option>
+        <option value="science">Modern Principles of Software Engineering</option>
+        <option value="computers">Web Technologies</option>
+        <option value="computers">Statistics with R Programming</option>
+        <option value="computers">NOSQL</option>
+      </select>
+      <button type="submit" class="cta-btn">Register Now</button>
+    </form>
+  </div>
+</section>
+
+<!-- Result Section -->
+<section id="result" class="results">
+  <div class="container">
+    <h2>Check Your Results</h2>
+    <form>
+      <input type="text" placeholder="Enter Roll Number" required>
+      <button type="submit" class="cta-btn"><a href="studentlogin.html">view Results</a></button>
+    </form>
+  </div>
+</section>
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <h3>ExamPortal</h3>
+      <p>Your trusted partner for secure and efficient online examinations.</p>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#test">Tests</a></li>
+        <li><a href="#registration">Register</a></li>
+        <li><a href="#result">Results</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h4>Contact Us</h4>
+      <p>Email: support@examportal.com</p>
+      <p>Phone: +1 234 567 890</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 ExamPortal. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- FontAwesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Student Registration - Examora</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <img src="images/examora_icon-removebg-preview.png" alt="Logo" />
+      <span>Examora</span>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="Home.html">About</a></li>
+      <li><a href="Home.html">Test</a></li>
+      <li><a href="Home.html">Registration</a></li>
+      <li><a href="Home.html">Result</a></li>
+    </ul>
+
+    <ul class="sign-in">
+      <li class="dropdown">
+        <a href="#" class="signin-btn">
+          Sign In <span class="arrow">▲</span>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="studentlogin.html">Student Sign In</a></li>
+          <li><a href="adminlogin.html">Admin Sign In</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <main class="register-main">
+    <form class="register-form" action="#" method="POST">
+      <h2>Student Registration</h2>
+
+      <label for="name">Full Name</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your full name"
+        required
+      />
+
+      <label for="rollnumber">Roll Number</label>
+      <input
+        type="text"
+        id="rollnumber"
+        name="rollnumber"
+        placeholder="Enter your roll number"
+        required
+      />
+
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+        required
+      />
+
+      <label for="password">Create Password</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Create a password"
+        required
+      />
+
+      <label for="confirm-password">Re-enter Password</label>
+      <input
+        type="password"
+        id="confirm-password"
+        name="confirm-password"
+        placeholder="Re-enter your password"
+        required
+      />
+
+      <label for="branch">Branch</label>
+      <select id="branch" name="branch" required>
+        <option value="">Select Branch</option>
+        <option value="cse">Computer Science Engineering</option>
+        <option value="ece">Electronics and Communication Engineering</option>
+        <option value="mech">Mechanical Engineering</option>
+        <option value="civil">Civil Engineering</option>
+        <option value="eee">Electrical Engineering</option>
+      </select>
+
+      <button type="submit" class="cta-btn"><a href="studentlogin.html">Submit</a></button>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>ExamPortal</h3>
+        <p>Your trusted partner for secure and efficient online examinations.</p>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="Home.html">About</a></li>
+          <li><a href="Home.html">Tests</a></li>
+          <li><a href="index.html#registration">Register</a></li>
+          <li><a href="index.html#results">Results</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p>Email: support@examportal.com</p>
+        <p>Phone: +1 234 567 890</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 ExamPortal. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- FontAwesome Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+</body>
+</html>
